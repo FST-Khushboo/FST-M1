@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite parallel="false" name="Suite">
+    <test name="Test">
+        <!--groups>
+            <run>
+                <include name="ButtonTests" />
+                <include name="ButtonTests" />
+            </run>
+        </groups>-->
+        <!--parameter name="username" value="admin"/>
+        <parameter name="password" value="password"/>-->
+        <classes>
+            <!--class name="suiteExample.Activity5">-->
+            <class name="suiteExample.Activity9"/>
+            <!--class name="suiteExample.Activity6"/>
+            <class name="suiteExample.Activity7"/>
+            <class name="suiteExample.DemoOne"/>
+            <class name="suiteExample.DemoTwo"/>-->
+            <!--methods>
+            <exclude name="Header1"></exclude>
+                <exclude name="Header2"></exclude>
+            </methods>-->
+            <!--class name="suiteExample.DemoOne"/>
+            <class name="suiteExample.DemoTwo"/>-->
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
